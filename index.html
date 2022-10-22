@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,400;0,700;1,400;1,700&family=Red+Hat+Text:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<title>Travel</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-wrapper">
+            <div class="logo-name">
+                <a href="#" class="logo">
+                    <object type="image/svg+xml" data="./assets/icons/logo.svg" class="logo-object">
+                        Your browser does not support SVG
+                     </object>
+                </a>
+             </div>
+            <nav class="header__navigation">
+                <div class="menu-burger"><span></span></div>
+
+                <ul class="list-navigation">
+                    <li class="nav-item"><a class="header-link" href="#steps">How It Works</a></li>
+                    <li class="nav-item"><a class="header-link" href="#plan">Plan Your Trip</a></li>
+                    <li class="nav-item"><a class="header-link" href="#destinations">Destinations</a></li>
+                    <li class="nav-item"><a class="header-link" href="#stories">Travel Stories</a></li>
+                </ul>
+            </nav>
+            <div class="button">
+                <button class="button__header">Login</button>
+                <a href="#" class="link-button"></a>
+            </div>
+        </div>
+    </header>
+
+    <section class="planning" id="plan">
+        <div class="preview-wrapper">
+            <div class="preview-content">
+                <h1>Explore the beauty of the World</h1>
+                <p class="preview-text">Receive personalized recommendations for countries, hotels, activities and more</p>
+                <div class="start_planning">
+                    <p>What would you like to do?</p>
+                    <div class="button">
+                        <button class="button button__planning">Start Planning</button>
+                        <a href="#" class="link-button"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="steps" id="steps">
+        <div class="steps-wrapper">
+            <h2 class="title steps_title">3 STEPS TO THE PERFECT TRIP</h2>
+                <div class="steps-container-3_columns">
+                    <div class="steps-array">
+                        <div class="steps__icons">
+                            <span class="icon-red_square">
+                                <span class="ico icon_tell"></span>
+                            </span>
+                        </div>
+                        <p class="icons-text">Tell us what you want to do</p> 
+                    </div>
+                    <div class="steps array">
+                        <div class="steps__icons">
+                            <span class="icon-red_square">
+                                <span class="ico icon_share"></span>
+                            </span>
+                        </div>
+                        <p class="icons-text">Share us preferable dates </p> 
+                    </div>
+                    <div class="steps array">
+                        <div class="steps__icons">
+                            <span class="icon-red_square">
+                                <span class="ico icon_recommend"></span>
+                            </span>
+                        </div>
+                        <p class="icons-text">We will give you recommendations</p> 
+                    </div>
+                 </div>
+        </div>
+    </section>
+    
+    <section class="destinations" id="destinations">
+        <div class="destinations-wrapper">
+            <h2 class="title destinations_title">POPULAR DESTINATIONS</h2>
+            <div class="destinations_3-pictures">
+                <div class="destinations-block">
+                    <img class="destinations-img" src="assets/img/Rectangle 23.png" alt="image_Portugal">
+                    <span class="img-name">Portugal</span>
+                </div>
+                <div class="destinations-block">
+                    <img class="destinations-img" src="assets/img/Rectangle 24.png" alt="image_Japan">
+                    <span class="img-name">Japan</span>
+                </div>     
+                <div class="destinations-block">
+                    <img class="destinations-img" src="assets/img/Rectangle 25.png" alt="image_USA">
+                    <span class="img-name">USA</span>
+                </div>
+            </div>
+
+            <div class="radio-circles">
+                <button class="small_circle"></button>
+                <button class="small_circle active"></button>
+                <button class="small_circle"></button>
+            </div>
+           
+            <button class="button-arrow button__destinations">
+                <svg width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 20.5C2.5 20.1685 2.6317 19.8505 2.86612 19.6161C3.10054 19.3817 3.41848 19.25 3.75 19.25H33.2325L25.365 11.385C25.1303 11.1503 24.9984 10.8319 24.9984 10.5C24.9984 10.1681 25.1303 9.84971 25.365 9.61499C25.5997 9.38028 25.9181 9.24841 26.25 9.24841C26.5819 9.24841 26.9003 9.38028 27.135 9.61499L37.135 19.615C37.2514 19.7311 37.3438 19.869 37.4068 20.0209C37.4698 20.1728 37.5022 20.3356 37.5022 20.5C37.5022 20.6644 37.4698 20.8272 37.4068 20.9791C37.3438 21.1309 37.2514 21.2689 37.135 21.385L27.135 31.385C26.9003 31.6197 26.5819 31.7516 26.25 31.7516C25.9181 31.7516 25.5997 31.6197 25.365 31.385C25.1303 31.1503 24.9984 30.8319 24.9984 30.5C24.9984 30.1681 25.1303 29.8497 25.365 29.615L33.2325 21.75H3.75C3.41848 21.75 3.10054 21.6183 2.86612 21.3839C2.6317 21.1495 2.5 20.8315 2.5 20.5Z" fill="white"/>
+                </svg>           
+                Find more
+                <a href="#" class="link-button"></a>
+            </button>
+                
+        </div>
+    </section>
+
+    
+    <section class="stories" id="stories">
+        <h2 class="title stories_title">TRAVEL STORIES</h2>
+    <div class="two-sectoin-background">
+        <div class="wrapper-opacity">
+            <div class="stories-wrapper">
+                <div class="stories-block">
+                        <img class="stories-img" src="assets/img/Rectangle 15.png" alt="Attractive Thailand">
+                        <div class="storiesblock-content">
+                            <h3 class="stories-block-name">10 Photos of Attractive Thailand</h3>
+                            <p class="stories-block-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... <span>Read More</span></p>
+                        </div>
+                </div>
+                    <div class="stories-block">
+                        <img class="stories-img" src="assets/img/Rectangle 16.png" alt="Canyonlands National Park">
+                        <div class="storiesblock-content">
+                            <h3 class="stories-block-name">Canyonlands National Park, Utah</h3>
+                            <p class="stories-block-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... <span>Read More</span></p>
+                        </div>
+                    </div>
+                    <div class="stories-block">
+                        <img class="stories-img" src="assets/img/Rectangle 27.png" alt="the Mountains">
+                        <div class="storiesblock-content">
+                            <h3 class="stories-block-name">I left my heart in the Mountains!</h3>
+                            <p class="stories-block-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... <span>Read More</span></p>
+                        </div>
+                    </div>
+                    <div class="stories-block">
+                        <img class="stories-img" src="assets/img/Rectangle 17.png" alt="the Car in Canyon">
+                        <div class="storiesblock-content">
+                            <h3 class="stories-block-name">The Longest journey in my life!</h3>
+                            <p class="stories-block-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... <span>Read More</span></p>
+                        </div>
+                    </div>
+                    <button class="button-arrow button__stories">
+                        <svg width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 20.5C2.5 20.1685 2.6317 19.8505 2.86612 19.6161C3.10054 19.3817 3.41848 19.25 3.75 19.25H33.2325L25.365 11.385C25.1303 11.1503 24.9984 10.8319 24.9984 10.5C24.9984 10.1681 25.1303 9.84971 25.365 9.61499C25.5997 9.38028 25.9181 9.24841 26.25 9.24841C26.5819 9.24841 26.9003 9.38028 27.135 9.61499L37.135 19.615C37.2514 19.7311 37.3438 19.869 37.4068 20.0209C37.4698 20.1728 37.5022 20.3356 37.5022 20.5C37.5022 20.6644 37.4698 20.8272 37.4068 20.9791C37.3438 21.1309 37.2514 21.2689 37.135 21.385L27.135 31.385C26.9003 31.6197 26.5819 31.7516 26.25 31.7516C25.9181 31.7516 25.5997 31.6197 25.365 31.385C25.1303 31.1503 24.9984 30.8319 24.9984 30.5C24.9984 30.1681 25.1303 29.8497 25.365 29.615L33.2325 21.75H3.75C3.41848 21.75 3.10054 21.6183 2.86612 21.3839C2.6317 21.1495 2.5 20.8315 2.5 20.5Z" fill="white"/>
+                        </svg>
+                        <!-- <span class="arrow-arrow"></span> -->
+                        See more
+                        <a href="#" class="link-button"></a>
+                    </button>                    
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-wrapper">
+            <p class="footer-text">All Rights Reserved © Travel Portal</p>
+        </div>
+            <div class="footer-links">
+                <img src="assets/icons/instagram.svg" class="social-item link_insta"><a href="https://www.instagram.com/"  target="_blank"></a>
+                <img src="assets/icons/youtube.svg" class="social-item link_utube"><a href="https://www.youtube.com/"  target="_blank"></a>
+                <img src="assets/icons/twitter.svg" class="social-item link_twitter"><a href="https://twitter.com/"  target="_blank"></a>
+            </div>        
+    </footer>
+    </div>
+</body>
+</html>
