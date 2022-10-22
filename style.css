@@ -3,8 +3,8 @@
 }
 
 body {
-max-width: 1440px;
-margin: 0 auto;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 h1, h2, h3 {
@@ -39,6 +39,8 @@ header {
 
 .header__navigation {
     display: block;
+    /* vertical-align: middle; */
+    margin-left: -70px;
 }
 
 .list-navigation {
@@ -140,7 +142,8 @@ header {
     font-size: 20px;
     line-height: 24px;
     color: #FFFFFF;
-    padding-bottom: 36px;
+    margin-top: 33px;
+    padding-bottom: 25px;
 }
 
 .start_planning {
@@ -150,7 +153,7 @@ header {
     max-width: 892px;
     background: rgba(255, 255, 255, 0.7);
     border-radius: 16px;
-    gap: 304px;
+    gap: 322px;
     padding: 9px 18px;
 }
 
@@ -195,7 +198,7 @@ header {
     max-width: 1177px;
     margin: 0 auto;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 76px;
 }
 
 .steps-container-3_columns {
@@ -217,7 +220,7 @@ header {
     max-width: 1177px;
     margin: auto;
     text-align: center;
-    margin-top: 67px;
+    margin-top: 76px;
     margin-bottom: 40px;
 }
 
@@ -241,6 +244,10 @@ header {
     justify-content: center;
     background-color:#F2785C;
     border-radius: 16px;
+}
+
+.steps-array::nth-child(2) {
+    margin-right: 35px;
 }
 
 .icon_tell {
@@ -270,6 +277,7 @@ header {
     font-size: 20px;
     line-height: 24px;
     color: #0D606F;
+    margin-top: 33px;
 }
 
 .destinations {
@@ -305,8 +313,8 @@ header {
 
 .destinations-block span {
     position: absolute;
-    left: 30px;
-    bottom: 30px;
+    left: 19px;
+    bottom: 44px;
     font-family: 'Red Hat Text';
     font-style: normal;
     font-weight: 500;
@@ -322,8 +330,8 @@ header {
     align-items: center;
     gap: 10px;
     margin: 0;
-    margin-bottom: 20px;
-    margin-top: 24px;
+    margin-top: 19px;
+    margin-bottom: 35px;
 }
 
 .small_circle {
@@ -403,7 +411,7 @@ header {
 }
 
 .stories_title {
-    margin-bottom: 40px;
+    margin-bottom: 35px;
 }
 
 .stories-wrapper {
@@ -485,21 +493,18 @@ footer {
 }
 
 .footer-links {
-    display: block;
-    margin-top: -20px;
+    display: flex;
+    margin-top: -24px;
     position: absolute;
-    right: 123px;
+    right: 136px;
 }
 
 .social-item {
+    width: 60px;
+    height: 33px;
     cursor: pointer;
     color: #FFFFFF;
     transition: 0.3s;
-    padding-left: 24px;
-}
-
-.link_insta,  
-.link_utube,
-.link_twitter {
     background-repeat: no-repeat;
+    margin-left: -6px;
 }
