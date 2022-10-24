@@ -1,0 +1,155 @@
+@media (max-width: 390px) {
+
+    body {
+        max-width: 390px;
+        margin: 0;
+    }
+
+    header {
+        display: none;
+    }
+
+    .planning {
+        background: url('assets/img/garrett-parker_mobile\ 2.png');
+        max-width: 390px;
+        min-height: 251px;
+        margin: 0 auto;
+        /* margin-top: -45px; */
+    }
+
+    .preview-wrapper {
+        display: flex;
+        position: relative;
+        top: 45px;
+        left: 15px;
+        max-width: 360px;
+    }
+
+    .burger-logo {
+        display: flex;
+        padding-bottom: 67px;
+    }
+
+    .preview-title {
+        display: none;
+    }
+
+    .start_planning {
+        display: inline-flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 360px;
+        background: rgba(255, 255, 255, 0.7);
+        border-radius: 16px;
+        margin: 0;
+        padding: 9px 9px; 
+        gap: 75px;
+    }
+
+    .start_planning p {
+        font-family: 'Aleo';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 29px;
+        color: #F2785C;
+        margin: 0;
+    }
+    
+    .button__planning {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 9px 8px;
+        background: #0D606F;
+        box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+        border-radius: 10px;
+        border-color: #0D606F;
+        cursor: pointer;
+        transition: .3s;
+    
+        font-family: 'Red Hat Text';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 13px;
+    }
+
+    .title {
+        margin: auto;
+        text-align: center;
+        font-family: 'Red Hat Text';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18.5px;
+        color: #F2785C;
+    }
+}
+
+
+
+.burger-menu {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 165px;
+    background: #F2785C;
+    box-shadow: 0px 4px 3px rgba(13, 96, 111, 0.25);
+    border-radius: 10px;
+}
+
+.crossmark {
+    display: flex;
+    justify-content: left;
+    margin: 16px;
+}
+
+.cross-line {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.7);
+    width: 15px;
+    height: 3px;
+    transform: rotate(45deg);
+}
+.cross-line::after {
+    content: '';
+    background: rgba(255, 255, 255, 0.7);
+    width: 15px;
+    height: 3px;
+    display: block;
+    transition: 0.2s;
+    transform: rotate(-90deg);
+}
+
+.burger-nav-container {
+    display: flex;
+    justify-content: right;
+    padding-right: 15px;
+}
+
+.burger-navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: white;
+    list-style-type: none;
+    margin-top: 0px;
+    margin-bottom: 10px; 
+}
+
+.burger-navigation li {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+
+.burger-item {
+    text-decoration: none;
+    color: #FFFFFF;
+}
