@@ -86,9 +86,207 @@
         line-height: 18.5px;
         color: #F2785C;
     }
-}
+
+    .steps-wrapper {
+        display: block;
+        max-width: 390px;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 16px;
+    }
+
+    .steps-container-3_columns {
+        display: flex;
+        max-width: 360px;
+        margin: 20px auto;
+        gap: 30px;
+    }
+
+    .icon-red_square {
+        width: 70px;
+        height: 70px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background-color:#F2785C;
+        border-radius: 16px;
+    }
+
+    .left-icon,
+    .left {
+        display: block;
+        text-align: left;
+    }
+
+    .right-icon,
+    .right {
+        display: block;
+        text-align: right;
+    }  
+
+    .icon_tell {
+        background-image: url('assets/icons/ico_tell_mobile.svg');
+        width: 35px;
+        height: 32px;
+    }
+    
+    .icon_share {
+        background-image: url('assets/icons/ico_share_mobile.svg');
+        width: 35px;
+        height: 35px;
+    }
+    .icon_recommend {
+        background-image: url('assets/icons/ico_recom_mobile.svg');
+        width: 40px;
+        height: 32px;
+    }
+    
+    .center {
+        display: block;
+        min-width: 111px;
+    }
+     
+    .icons-text {
+        font-size: 10px;
+        line-height: 12px;
+        color: #0D606F;
+        margin: 0px;
+    }
+
+    .destinations {
+        max-width: 390px;
+        text-align: center;
+    }
+
+    .destinations-wrapper {
+        max-width: 368px;
+        overflow: hidden;
+        margin: 0;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .destinations_3-pictures {
+        display: none;
+    }
+
+    .destinations-mobile {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0 10px 0;
+        position: relative;
+        flex-wrap: nowrap;
+    }
+
+    .destinations-mobile-img {
+        width: 360px;
+        height: 210px;
+    }
+
+    .mobile-img-name {
+        position: absolute;
+        left: 20px;
+        padding-top: 8px;
+        font-family: 'Red Hat Text';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26.5px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .indicator-1 {
+        display: block;
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
+        left: 11px;
+    }
+
+    .indicator-2 {
+        display: block;
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
+        right: 11px;
+    }
+
+    .radio-circles {
+        display: inline-block;
+        position: absolute;
+        margin: 0;
+        right: 50%;
+        transform: translate(0, -50%);
+        bottom: -205px;
+    }
+
+    .small_circle {
+        width: 8px;
+        height: 8px;
+    }
+    
+    .small_circle.active {
+        background: rgba(242, 120, 92, 0.5);
+    }
+    .small_circle.mobile {
+        background: #F2785C;
+    }
+    .button-arrow {
+        font-size: 11px;
+        line-height: 15px;
+        color: #FFFFFF;
+    }
+    
+    .button__destinations {
+        padding: 7.5px 10px;
+        width: 92px; 
+    }
+     
+    .arrow-icon {
+        background-image: url('assets/icons/arrow_mobile.svg');
+        width: 10px;
+        height: 8px;
+    }
+
+    .two-sectoin-background {
+        max-width: 390px;
+        min-height: 693px;
+        background: url('assets/img/Rectangle\ 28_mobile.png');
+    }
+    
+    .stories {
+        max-width: 390px;
+        margin-top: 20px;
+    }
+
+    .wrapper-opacity {
+        max-width: 390px;
+        min-height: 628px;
+    }
+
+    .stories_title {
+        margin-bottom: 10px;
+    }
+    
+    .stories-wrapper {
+        max-width: 360px;
+        margin: 0 auto;
+    }
+    
+    .stories-block {
+        display: flex;
+        padding-top: 15px;
+    }
+    
+    .stories-block:nth-child(1) {
+        padding-top: 10px;
+    }
 
 
+
+    
 
 .burger-menu {
     margin: 0 auto;
@@ -152,4 +350,5 @@
 .burger-item {
     text-decoration: none;
     color: #FFFFFF;
+}
 }
