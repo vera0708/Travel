@@ -167,7 +167,9 @@
         margin-bottom: 20px;
     }
 
-    .destinations_3-pictures {
+    .destinations_3-pictures,
+    .stories-img,
+    .footer-wrapper {
         display: none;
     }
 
@@ -209,6 +211,7 @@
         display: block;
         position: absolute;
         top: 50%;
+        justify-content: center;
         transform: translate(0, -50%);
         right: 11px;
     }
@@ -216,10 +219,11 @@
     .radio-circles {
         display: inline-block;
         position: absolute;
+        justify-content: center;
         margin: 0;
         right: 50%;
-        transform: translate(0, -50%);
-        bottom: -205px;
+        /* transform: translate(0, -50%); */
+        bottom: 25%;
     }
 
     .small_circle {
@@ -250,46 +254,78 @@
         height: 8px;
     }
 
+    .stories {
+        max-width: 390px;
+        margin-top: 20px;
+    }
+        
+    .stories_title {
+        margin-bottom: 10px;
+    }
+    
     .two-sectoin-background {
         max-width: 390px;
         min-height: 693px;
         background: url('assets/img/Rectangle\ 28_mobile.png');
     }
-    
-    .stories {
-        max-width: 390px;
-        margin-top: 20px;
-    }
-
+ 
     .wrapper-opacity {
         max-width: 390px;
         min-height: 628px;
     }
 
-    .stories_title {
-        margin-bottom: 10px;
-    }
-    
     .stories-wrapper {
         max-width: 360px;
-        margin: 0 auto;
     }
     
     .stories-block {
-        display: flex;
         padding-top: 15px;
-    }
+    } 
     
     .stories-block:nth-child(1) {
         padding-top: 10px;
     }
 
-
-
+    .stories-mobile-img {
+        width: 155px;
+        height: 130px;
+        filter: drop-shadow(0px 4px 4px #0D606F);
+        border-radius: 16px;
+     }
     
+     .storiesblock-content {
+        padding-left: 10px;
+     }
+    
+    .stories-block-name {
+        font-size: 11px;
+        line-height: 13px;
+    }
+    
+    .stories-block-text {
+        font-size: 9px;
+        line-height: 11px;
+    }
+
+    .button__stories {
+        padding: 7px 13px;
+        width: 92px; 
+        margin-top: 10px;
+        margin-bottom: 13px;
+    }
+
+    .footer-links {
+        justify-content: center;
+        margin: 0;
+        margin-top: 19px;
+    }
+    
+    .social-item {
+        margin: 0 12px;
+    }
 
 .burger-menu {
-    margin: 0 auto;
+    margin: 30px auto;
     display: flex;
     flex-direction: column;
     width: 165px;
