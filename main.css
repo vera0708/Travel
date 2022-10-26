@@ -322,7 +322,8 @@ header {
 .indicator-1,
 .indicator-2,
 .destinations-mobile,
-.burger-menu {
+.burger-menu,
+.stories-block-mobile {
     display: none;
 }
 
@@ -439,7 +440,7 @@ header {
     padding-top: 40px;
 }
  
-.stories-block-text span {
+.storiesblock-content span {
     text-decoration: underline;
     font-weight: 600;
 }
