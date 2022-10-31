@@ -1,5 +1,5 @@
 
-.travelportal-login {
+/* .travelportal-login {
     max-width: 1000px;
     display: none;
     margin: 0 auto;
@@ -8,11 +8,29 @@
     padding-top: 30px;
     height: 1200px;
     background: linear-gradient(87.09deg, #0D606F 6.15%, #FFFFFF 202.69%);
+} */
+
+.popup-wrapper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    flex-flow: column nowrap;
+    justify-content: center; 
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    z-index: 99;
+    padding:30px 0;
+    display: none;
 }
 
-.login-container,
-.sign-container {
-    padding: 25px 45px;
+.log-show {
+    display: block;
 }
 
 .login-pop-up {
@@ -24,8 +42,11 @@
     margin: 0 auto;
     justify-content: center;
     text-align: center;
-    /* padding-left: 45px;
-    padding-right: 45px; */
+}
+
+.login-container,
+.sign-container {
+    padding: 25px 45px;
 }
 
 .login-pop-up h2 { 
@@ -222,6 +243,25 @@ input {
 .register,
 .yes-login { 
     display: inline-flex;
+}
+
+.popsign-wrapper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    flex-flow: column nowrap;
+    justify-content: center; 
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    z-index: 99;
+    padding:30px 0;
+    display: none;
 }
 
 .sign-pop-up {

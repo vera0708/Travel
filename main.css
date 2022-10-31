@@ -7,8 +7,18 @@ body {
     margin: 0 auto;
 }
 
-h1, h2, h3 {
+h1, 
+h2, 
+h3 {
     margin: auto;
+}
+
+.link-button,
+.header-link,
+.button,
+.footer-links {
+    cursor: pointer;
+    transition: all 0.3s ease-out;
 }
 
 header {

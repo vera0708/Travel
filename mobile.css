@@ -14,20 +14,37 @@
         max-width: 390px;
         min-height: 251px;
         margin: 0 auto;
+        display: flex;
+        justify-content: center;
         /* margin-top: -45px; */
     }
 
     .preview-wrapper {
         display: flex;
         position: relative;
-        top: 45px;
-        left: 15px;
+        padding-top: 45px;
+        top: 0;
+        left: 0;
         max-width: 360px;
     }
 
     .burger-logo {
         display: flex;
-        padding-bottom: 67px;
+        padding-bottom: 57px;
+        justify-content: space-between;
+    }
+
+    .burger-lines {
+        width: 35px;
+        height: 33px;
+        cursor: pointer;
+        transition: 0.3s;
+        background-repeat: no-repeat;
+        padding-right: 10px;
+    }
+
+    .three-lines {
+        display: block;
     }
 
     .preview-title {
@@ -342,10 +359,39 @@
     border-radius: 10px;
 }
 
-.crossmark {
+.burger-wrapper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    flex-flow: column nowrap;
+    justify-content: center; 
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    z-index: 99;
+    padding:30px 0;
+    display: none;
+}
+
+.menu-show {
     display: flex;
-    justify-content: left;
-    margin: 16px;
+}
+
+.crossmark {
+    height: 16px;
+    width: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 14px;
 }
 
 .cross-line {
