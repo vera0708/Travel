@@ -226,7 +226,7 @@ header {
     color: #F2785C;
 }
 
-.steps_title {
+.steps-title {
     margin: auto;
     text-align: center;
     margin-top: 76px;
@@ -299,16 +299,21 @@ header {
 }
 
 .destinations_3-pictures {
+    position: relative;
     display: flex;
     justify-content: center;
     margin-top: 45px;
     gap: 60px;
     flex-wrap: nowrap;
+    width: 100%;
 }
 
 .destinations-block{
     margin: 0;
     position: relative;
+    display: flex;
+    justify-content: space-between;
+    animation: 0.5s  ease-in-out;
 }
 
 .destinations-img {
@@ -432,7 +437,7 @@ header {
     /* background-repeat: no-repeat; */
 }
 
-.stories_title {
+.stories-title {
     margin-bottom: 35px;
 }
 
