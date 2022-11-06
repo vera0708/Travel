@@ -29,10 +29,6 @@
     display: none;
 }
 
-.log-show {
-    display: block;
-}
-
 .login-pop-up {
     max-width: 650px;
     display: block;
@@ -283,4 +279,8 @@ input {
     font-size: 32px;
     line-height: 38px;
     color: #0D606F;
-} 
+}
+
+.log-show {
+    display: block;
+}
