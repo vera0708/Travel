@@ -7,8 +7,8 @@ body {
     margin: 0 auto;
 }
 
-h1, 
-h2, 
+h1,
+h2,
 h3 {
     margin: auto;
 }
@@ -80,7 +80,8 @@ header {
     cursor: pointer;
 }
 
-.header-link a:active, a:hover {
+.header-link a:active,
+a:hover {
     color: brown;
 }
 
@@ -112,17 +113,17 @@ header {
 }
 
 .button__header:hover {
-  background: #BCD0E5;
-  border-color: #BCD0E5;
-  border-radius: 10px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    background: #BCD0E5;
+    border-color: #BCD0E5;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
 }
 
 .planning {
     display: block;
     background-size: cover;
     background-position: center;
-    background: url('assets/img/garrett-parker-DlkF4-dbCOU-unsplash.png');
+    background: url('../assets/img/garrett-parker-DlkF4-dbCOU-unsplash.png');
     min-height: 765px;
     margin-top: -90px;
 }
@@ -144,7 +145,7 @@ header {
     color: #FFFFFF;
     margin: 0;
 }
- 
+
 .preview-text {
     font-family: 'Aleo';
     font-style: italic;
@@ -250,26 +251,27 @@ header {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background-color:#F2785C;
+    background-color: #F2785C;
     border-radius: 16px;
     margin-bottom: 19px;
 }
 
 .icon_tell {
-    background-image: url('assets/icons/ico_tell.svg');
+    background-image: url('../assets/icons/ico_tell.svg');
     width: 50px;
     height: 45px;
     background-repeat: no-repeat;
 }
 
 .icon_share {
-    background-image: url('assets/icons/ico_share.svg');
+    background-image: url('../assets/icons/ico_share.svg');
     width: 52px;
     height: 52px;
     background-repeat: no-repeat;
 }
+
 .icon_recommend {
-    background-image: url('assets/icons/ico_recommend.svg');
+    background-image: url('../assets/icons/ico_recommend.svg');
     width: 65px;
     height: 45px;
     background-repeat: no-repeat;
@@ -308,12 +310,12 @@ header {
     width: 100%;
 }
 
-.destinations-block{
+.destinations-block {
     margin: 0;
     position: relative;
     display: flex;
     justify-content: space-between;
-    animation: 0.5s  ease-in-out;
+    animation: 0.5s ease-in-out;
 }
 
 .destinations-img {
@@ -386,7 +388,7 @@ header {
 .arrow-icon {
     display: inline-block;
     vertical-align: middle;
-    background-image: url('assets/icons/arrow.svg');
+    background-image: url('../assets/icons/arrow.svg');
     width: 40px;
     height: 27px;
     background-repeat: no-repeat;
@@ -394,10 +396,11 @@ header {
 
 .button__destinations {
     padding: 10px 32px;
-    width: 228px; 
+    width: 228px;
 }
 
-.button__destinations:hover, .button__stories:hover {
+.button__destinations:hover,
+.button__stories:hover {
     cursor: pointer;
     transition: .3s;
     background: #BCD0E5;
@@ -415,7 +418,7 @@ header {
     min-height: 1331px;
     display: block;
     background-position: center;
-    background: url('assets/img/Rectangle\ 33.png');
+    background: url('../assets/img/Rectangle\ 33.png');
     margin: 0;
 }
 
@@ -432,7 +435,7 @@ header {
     display: block;
     background-size: cover;
     background-position: center;
-    background:  rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.7);
     min-height: 1270px;
     /* background-repeat: no-repeat; */
 }
@@ -454,27 +457,27 @@ header {
 .stories-block:nth-child(1) {
     padding-top: 40px;
 }
- 
+
 .storiesblock-content span {
     text-decoration: underline;
     font-weight: 600;
 }
 
 .stories-mobile-img {
-   display: none;
-} 
+    display: none;
+}
 
 .stories-img {
     width: 400px;
     height: 250px;
     filter: drop-shadow(0px 4px 4px #0D606F);
-    border-radius: 16px; 
- }
+    border-radius: 16px;
+}
 
- .storiesblock-content {
+.storiesblock-content {
     padding-left: 40px;
     text-align: left;
- }
+}
 
 .stories-block-name {
     font-family: 'Aleo';
@@ -496,7 +499,7 @@ header {
 
 .button__stories {
     padding: 7px 32px;
-    width: 228px; 
+    width: 228px;
     margin-top: 40px;
     margin-bottom: 41px;
 }
