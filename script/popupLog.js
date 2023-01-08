@@ -4,8 +4,8 @@ var form = popuplog.querySelector("form");
 var logmail = popuplog.querySelector("[name=email]");
 var logpassword = popuplog.querySelector("[name=password]");
 
-var link = document.querySelector(".register");
-var popsign = document.querySelector(".popsign-wrapper");
+// var link = document.querySelector(".register");
+// var popsign = document.querySelector(".popsign-wrapper");
 
 var registerLink = document.querySelector(".register");
 var popupRegister = document.querySelector(".popsign-wrapper");
@@ -32,22 +32,22 @@ window.addEventListener("keydown", function(evt) {
         if (isLoginPopupOpen) {
             closeLogin();
         } else if (isRegisterPopupOpen) {
-            popupRegister.classList.remove("log-show");
+            closeRegister();
         }
     }
 });
 
-link.addEventListener("click", function(evt) {
-    console.log('sign-show');
-    // evt.preventDefault();
-    popsign.classList.add("sign-show");
-});
+// link.addEventListener("click", function(evt) {
+//     console.log('sign-show');
+//     // evt.preventDefault();
+//     openRegister();
+// });
 
 registerLink.addEventListener("click", function(evt) {
     evt.preventDefault();
     closeLogin();
     console.log(popupRegister);
-    popupRegister.classList.add("log-show");
+    openRegister();
 });
 
 function openLogin() {
@@ -56,6 +56,14 @@ function openLogin() {
 
 function closeLogin() {
     popuplog.classList.remove("log-show");
+}
+
+function openRegister() {
+    popupRegister.classList.add("log-show");
+}
+
+function closeRegister() {
+    popupRegister.classList.remove("log-show");
 }
 
 function isLoginOpen() {
