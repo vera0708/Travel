@@ -1,9 +1,5 @@
 .carousel {
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    position: relative;
     width: 100%;
-    transform: translate(-50%, -50%);
+    overflow: hidden;
 }
-
-
