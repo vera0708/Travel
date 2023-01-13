@@ -16,6 +16,7 @@ A landing website built with
 - HTML 5. Layout, HTML best practice  
 - CSS 3. Split into different files
 - JS. Open a login modal, open a register modal
+- JS. Timer, carousel
 
 Made by Vera Deeva. A design was taken from a free source.
 
