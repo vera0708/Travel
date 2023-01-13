@@ -218,17 +218,21 @@
         color: #FFFFFF;
     }
 
-    .indicator-1 {
+    .prev {
         display: block;
         position: absolute;
+        width: 15px;
+        height: 26px;
         top: 50%;
         transform: translate(0, -50%);
         left: 11px;
     }
 
-    .indicator-2 {
+    .next {
         display: block;
         position: absolute;
+        width: 15px;
+        height: 26px;
         top: 50%;
         justify-content: center;
         transform: translate(0, -50%);
